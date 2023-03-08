@@ -1,0 +1,52 @@
+.paper_parent{
+    background-color: gray;
+    padding: 50px;
+}
+
+.h1{
+    font-size: 40px !important;
+    font-weight: 700 !important;
+}
+
+.papar_container{
+       width: 70%; 
+       margin: auto;
+       background-color: white;
+       min-height: 100vh;
+       padding: 100px;
+}
+
+.center {
+    text-align: center;
+}
+
+.department{
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.subject{
+    text-align: center;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.paper_info > .base {
+    display: grid;
+    grid-template-columns: repeat(2, calc(100%/2));
+    justify-content: space-between;
+}
+.paper_info > .base > div:nth-child(odd){
+    text-align: start;
+    font-weight: 500;
+    margin: 5px;
+}
+.paper_info > .base > div:nth-child(even){
+    text-align: end;
+    font-weight: 500;
+    margin: 5px;
+}
+

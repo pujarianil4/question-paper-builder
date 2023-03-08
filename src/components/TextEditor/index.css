@@ -1,0 +1,18 @@
+.text_container{
+   position: relative;
+
+}
+.text_container > p{
+    border: 0.5px solid white;
+}
+.text_container > p:hover{
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
+
+.text_container > input {
+    position:static;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
