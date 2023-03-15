@@ -37,3 +37,24 @@
 .popover_content > p:hover{
     background-color: lightgray;
 }
+
+.nav_routes{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+}
+.nav_routes > a {
+    text-decoration: none;
+    color: black;
+}
+.first_block{
+    display: flex;
+}
+.logo{
+    width: 100px;
+    margin-left: 30px;
+}
+.logo > img {
+    height: 90%;
+}
