@@ -7,6 +7,8 @@
     min-height: 500px;
     display: flex;
     justify-content: space-between;
+    max-height: 500px;
+    overflow: hidden;
 }
 
 .paper_container > div {
@@ -74,6 +76,10 @@
     margin: 5px;
 }
 
+.preview{
+   overflow-y: scroll;
+}
+
 .preview > .list {
     margin: 10px;
 }
@@ -88,4 +94,43 @@
 .qList > span{
  font-weight: 600;
  font-size: 15px;
+}
+
+.steps_div{
+    width: 80%;
+    margin: 50px auto;
+}
+
+ .ant-steps-item-active > {
+
+ }
+
+ .ant-steps-item-active  > .ant-steps-item-container> .ant-steps-item-icon{
+background-color: black !important;
+border-color: black;
+}
+.ant-steps-icon{
+    color: white;
+}
+
+.last_btns{
+    display: flex;
+   width: 90%;
+   margin: auto;
+   justify-content: space-between;
+}
+
+button{
+    width: 100px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.templateSelection{
+    height: 500px;
+    padding: 20px;
 }

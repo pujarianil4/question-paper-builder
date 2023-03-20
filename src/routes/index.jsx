@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from '../components/Home';
 import PaperInput from '../components/PaperInputs';
 import Signup from '../components/signup';
+import Steps from '../components/Steps';
 import Template1 from '../components/Templates/Template1';
 
 export default function RoutesContainer() {

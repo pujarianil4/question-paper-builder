@@ -4,7 +4,7 @@ import "./questionModal.css";
 
 export default function QuestionModal({ isOpen, setOpen, handleQuestionList }) {
   // const [isOpen, setOpen] = useState(false)
-  const list = [{ value: "anilHBLDBHSVHJDSBVBDSLIVBLDKSJNV MNBKJDSBVC IGCIDSBV IGVICUD ILUUSDGVID ILUSUDGDCIVDS LIUGVCIDS LIUDGCVIUDS LIUGCVIDS ILUGCIVU" }, { value: "pujari" }, { value: "text" }];
+  const list = [{ value: "Question1" }, { value: "Question2" }, { value: "Question3" }];
 
   const mainTitle = [
     { value: "Attempt any ONE" },
