@@ -14,25 +14,15 @@
 .paper_container > div {
     width: 45% !important;
     padding: 20px;
-    border: 2px solid gray;
+    border: 5px double gray;
     border-radius: 10px;
 }
 
-/* .paper_container::before{
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    width: 100%;
-    border: 2px solid gray;
-    border-radius: 10px;
-    min-height: 500px;
-    z-index: -1;
-} */
 
 .form_container{
+    position: relative;
     padding: 20px;
-    border: 2px solid gray;
+    border: 2px double gray;
     border-radius: 10px;
 }
 
