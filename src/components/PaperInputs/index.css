@@ -1,0 +1,91 @@
+.paper_container{
+    width: 90%;
+    margin: 50px auto;
+    /* border: 2px solid gray; */
+    border-radius: 10px;
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paper_container > div {
+    width: 45% !important;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+/* .paper_container::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    min-height: 500px;
+    z-index: -1;
+} */
+
+.form_container{
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.clg_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.clg_info > label{
+ font-weight: 600;
+ margin: 5px;
+}
+.withButton > input, .clg_info > input, .input {
+    margin: 0px 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.withButton{
+    display: flex;
+   justify-content: space-between;
+}
+
+.withButton > button {
+    width: 100px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+
+.clg_info > .list{
+ margin: 10px;
+}
+
+.preview > label {
+    font-weight: 600;
+    margin: 5px;
+}
+
+.preview > .list {
+    margin: 10px;
+}
+.preview > p {
+    margin: 10px;
+}
+
+.qList{
+    margin: 15px;
+}
+
+.qList > span{
+ font-weight: 600;
+ font-size: 15px;
+}
