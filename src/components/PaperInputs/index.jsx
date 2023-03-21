@@ -24,30 +24,12 @@ const steps = [
 export default function PaperInput() {
   const [isOpen, setOpen] = useState(false);
   const [current, setCurrent] = useState(0);
-  const [examDetails, setExamDetails] = useState([
-    "Subject Name: Computer",
-    "Program Code: 20",
-    "Date & Time: 4/3/22 & 2:00 PM to 3:00 PM",
-    "Semister: 6",
-  ]);
-  const [instructions, setInstructions] = useState([
-    "Subject Name: Computer",
-    "Program Code: 20",
-    "Date & Time: 4/3/22 & 2:00 PM to 3:00 PM",
-    "Semister: 6",
-  ]);
-  const [questions, setQuestions] = useState([
-    {
-      heading: "Any three from five",
-      sub: ["somethging", "something2"],
-    },
-  ]);
-
-
-
+  const [examDetails, setExamDetails] = useState([ ]);
+  const [instructions, setInstructions] = useState([]);
+  const [questions, setQuestions] = useState([]);
   const [singleInput, setSingleInput] = useState({
-    collegeName: "R C Patel ",
-    departmentName: "Computer Engineering",
+    collegeName: "",
+    departmentName: "",
   });
   const [examDetailsInput, setExamDetailsInput] = useState("");
   const [instructionsInput, setInstructionsInput] = useState("");
