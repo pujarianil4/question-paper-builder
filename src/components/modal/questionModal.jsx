@@ -4,7 +4,7 @@ import "./questionModal.css";
 
 export default function QuestionModal({ isOpen, setOpen, handleQuestionList }) {
   // const [isOpen, setOpen] = useState(false)
-  const list = [{ value: "Question1" }, { value: "Question2" }, { value: "Question3" }];
+  const list = [{ value: "List data types in php" }, { value: "Explain jumping statement in php" }, { value: "List the levels of testing" }];
 
   const mainTitle = [
     { value: "Attempt any ONE" },

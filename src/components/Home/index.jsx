@@ -16,7 +16,7 @@ export default function Home() {
             Quidem eligendi recusandae culpa dolorum nisi ullam, quaerat
             repudiandae tempora id reprehenderit.
           </p>
-          <button>Start Now</button>
+          <a href="/build"><button>Start Now</button></a>
         </div>
         <div>
           <img src="heroimage.svg" alt="" />
